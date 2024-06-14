@@ -1,0 +1,68 @@
+.mob-table{
+    width: 800px ;
+    padding: 20px 25px;
+    background-color: white;
+    margin: 30px 0;
+    border-radius: 3px;
+    justify-content: center;
+}
+
+.headers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 30px;
+    background-color:cadetblue ;
+    color:white;
+}
+.add{
+    background-color: green;
+    color:white;
+    
+}
+.btn-primary{
+    background-color: blue;
+    color:white;
+}
+th{
+    text-align: center;
+}
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 100;
+}
+
+.mobile-form{
+    background-color: white;
+    width: 600px;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+
+.formControl{
+    width: 100%;
+}
+.group{
+    display: flex;
+    margin: 15px 0;
+}
+.group label{
+    width: 70px;
+    line-height: 40px;
+    height: 40px;
+}
+
+.action{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    margin: 30px;
+}
